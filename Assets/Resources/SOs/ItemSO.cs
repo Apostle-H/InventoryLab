@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemSO : ScriptableObject
 {
-    public Sprite sprite;
+    public string spritePath;
 
     public string tittle;
     public ItemType itemType;
