@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d724cd9e3a03aed409d3abe541a5fdd3, type: 3}
   m_Name: LeatherArmor
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  spritePath: Sprites/Items/Equipment/Leather Armor
   tittle: 
   itemType: 0
   price: 0

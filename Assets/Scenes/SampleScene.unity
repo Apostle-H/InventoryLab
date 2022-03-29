@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -438,10 +438,10 @@ RectTransform:
   m_Father: {fileID: 345287222}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 103.67505}
-  m_SizeDelta: {x: -32.5965, y: -230.8995}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -122.843925}
+  m_SizeDelta: {x: 767.4035, y: 222.1385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194133611
 MonoBehaviour:
@@ -456,15 +456,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 10
+    m_Left: 20
     m_Right: 0
-    m_Top: 10
+    m_Top: 20
     m_Bottom: 0
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
+  m_CellSize: {x: 80, y: 80}
+  m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &1194133612
@@ -578,6 +578,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1194133610}
     m_Modifications:
+    - target: {fileID: 778710854792781172, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -12.644
+      objectReference: {fileID: 0}
+    - target: {fileID: 778710854792781172, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 5.8636
+      objectReference: {fileID: 0}
+    - target: {fileID: 778710856481654369, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 65.8398
+      objectReference: {fileID: 0}
+    - target: {fileID: 778710856481654369, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 65.8398
+      objectReference: {fileID: 0}
     - target: {fileID: 778710856716434832, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -666,5 +682,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot
       objectReference: {fileID: 0}
+    - target: {fileID: 2289158774772424381, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
+      propertyPath: itemSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 7189c98a80d64664ebcd8b9cd67d0d42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52ff088f30d2ac14887caefd2dd42bd0, type: 3}
