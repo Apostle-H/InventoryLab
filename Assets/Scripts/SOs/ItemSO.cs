@@ -6,8 +6,8 @@ public class ItemSO : ScriptableObject
 {
     public string spritePath;
 
-    public string tittle;
-    public ItemType itemType;
+    public string itemName;
+    public ItemType type;
 
     public int price;
 }

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6df94a0aa63eae14c81c345eee947cb7, type: 3}
   m_Name: SmallHealPotion
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  tittle: 
-  itemType: 0
-  price: 0
-  healEffect: 0
+  spritePath: Sprites\Items\Potion\Red Potion
+  itemName: Small heal potion
+  type: 2
+  price: 7
+  effect: 2

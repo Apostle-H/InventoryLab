@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemSlot : MonoBehaviour
 {
-    [SerializeField] private ItemSO itemSO;
+    public ItemSO itemSO;
     [SerializeField] private Transform Slot;
 
-    private void Start()
-    {
-        InitItem(itemSO);
-    }
+    [HideInInspector] public bool hasItem;
 
-    public void InitItem(ItemSO item)
+    public void SetItem(ItemSO item)
     {
         itemSO = item;
+        Slot.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>(itemSO.spritePath);
+        Slot.GetChild(0).GetComponent<Image>().color = new Color(255, 255, 255, 1);
 
-        Slot.GetChild(0).GetComponent<Image>().sprite = (Sprite)Resources.Load(itemSO.spritePath);
+        hasItem = true;
     }
 }

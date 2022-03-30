@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LeatherArmor
   m_EditorClassIdentifier: 
   spritePath: Sprites/Items/Equipment/Leather Armor
-  tittle: 
-  itemType: 0
-  price: 0
-  defence: 0
+  itemName: Leather armor
+  type: 0
+  price: 10
+  defence: 5

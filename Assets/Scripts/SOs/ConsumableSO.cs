@@ -5,5 +5,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewConsumable", menuName = "ConsumableSO")]
 public class ConsumableSO : ItemSO
 {
-    public int healEffect;
+    public int effect;
 }

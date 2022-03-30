@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef439488b9f034d4d9489e9023b88309, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  tittle: 
-  itemType: 0
-  price: 0
-  durablity: 0
+  spritePath: Sprites\Items\Material\Wood Log
+  itemName: Wood
+  type: 3
+  price: 15
+  durablity: 10
